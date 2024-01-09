@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+.dropdown_menu {position:absolute}    
+     
+.dropbutton {   background-color: #4CAF50;
+                color: white;
+                height:60px;
+                line-height:60px;
+                font-size: 20px;
+                width: 200px;
+                text-align:center;
+                box-shadow: 4px 4px 12px 0px #999;}
+
+.dropdown_links {   height:0px;
+                    background-color: #fff;
+                    opacity: .8;
+                    box-shadow: 4px 4px 12px 0px #999;
+                    overflow:hidden;
+                    transition:height 1s;}
+     
+a       {   color: black;
+            height:40px;
+            line-height:40px;
+            text-align:center;
+            text-decoration: none;
+            display: block;}
+        
+.dropdown_menu:hover .dropdown_links {height:120px;}
+        
+a:hover {background-color: #eee;}
+
+    </style>
+</head>
+
+<body>
+
+<h2>Dropdown Menu</h2>
+
+<p>Move the mouse over the button to open the Dropdown Menu.</p>
+
+<div id=dropdown_menu class="dropdown_menu">
+    
+  <div class="dropbutton">Dropdown Menu</div>
+  
+  <div class="dropdown_links">
+    
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    
+  </div>
+  
+</div>
+
+</body>
+</html>

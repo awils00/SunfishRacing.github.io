@@ -1,0 +1,131 @@
+* {margin: 0; padding: 0;}
+.dropdown_menu {position:absolute}    
+     
+.dropbutton {   background: url(button.png);
+                color: white;
+                height:41px;
+                line-height:41px;
+                font-size: 20px;
+                width: 170px;
+                text-align:center;
+                box-shadow: 4px 4px 12px 0px #999;}
+
+.dropdown_links {   position: relative;
+                    z-index: 999;
+                    height:0px;
+                    background-color: #fff;
+                    opacity: 100%;
+                    box-shadow: 4px 4px 12px 0px #999;
+                    overflow:hidden;
+                    transition:height 1s;}
+     
+a       {   color: black;
+            height:40px;
+            line-height:40px;
+            text-align:center;
+            text-decoration: none;
+            display: block;}
+        
+.dropdown_menu:hover .dropdown_links {height:120px;}
+        
+a:hover {background-color: #eee;}
+
+#dropdown_calender{
+    left: 180px;
+}
+
+#dropdown_videos{
+    left: 360px;
+}
+
+#dropdown_photos{
+    left: 540px; 
+}
+
+nav{
+    margin-left: 40px;
+    position: relative;
+    height: 100px;
+}
+
+.button{
+    background: url(button.png);
+    width: 170px;
+    height: 41px;
+    text-align: center;
+    color: white;
+    line-height: 41px;
+    box-shadow: 4px 4px 8px #555;
+    display: inline-block;
+    margin: 10px;
+}
+
+h1{
+    padding: 35px 0px 0px 110px;
+    font-size: 48px;
+    letter-spacing: -2px;
+    color: white;
+    text-shadow: 4px 4px 4px #444;
+    font-family: 'Times New Roman';
+    position: absolute;
+}
+video{
+    float: left;
+    margin-top: -40px;
+    padding-left: 38px;
+    padding-right: 25px;
+}
+
+header{
+    margin: 30px 0px 30px 0px;
+    background: url(bg.png);
+    height: 135px;
+    width: 800px;
+    box-shadow: 4px 4px 8px #999;
+    border-radius: 30px;
+}
+
+h2{
+    position: absolute;
+    font-size: 30px;
+    padding-left: 290px;
+    padding-right: 250px;
+    margin-left: 90px;
+    margin-top: -45px;
+    word-spacing: 5px;
+}
+
+p{
+    word-spacing: 3px;
+    padding-top: 45px;
+    margin-left: 38px;
+    margin-right: 55px;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+
+h3{
+    padding: 20px 0px 30px 150px;
+    font-size: 22px;
+    color: white;
+    text-shadow: 4px 4px 4px #333;
+}
+
+
+footer{
+    margin: 20px 0px 90px 0px;
+    background: url(bg.png);
+    width: 800px;
+    border-radius: 20px;
+    height: 60px;
+}
+
+#page{
+    margin: 30px 0px 30px 200px ;
+    background-color: #C0DCFA;
+    border-radius: 30px;
+    height: 725px;
+    width: 800px;
+    background-position: 180px 240px;
+    padding: 0px;
+}
